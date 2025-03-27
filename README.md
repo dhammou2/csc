@@ -56,7 +56,7 @@ csc.exe config ServiceName OPTION= VALUE
          * error= (normal, severe, critical, ignore)
          * binPath=
          * password= 
-         * description= 
+         * DisplayName= 
 
 8. Configure failure options:
 
@@ -65,5 +65,5 @@ csc.exe failure ServiceName option= VALUE
 ``` 
     Available values:
 
-         * reset
+         * restart
          * reboot 
